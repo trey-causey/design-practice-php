@@ -1,0 +1,104 @@
+{
+  "Mat":
+  {
+    "JaggedSquares": [
+      {
+        "color": "orange",
+        "connected": "true",
+        "innerSquare": {
+          "shape": "circle",
+          "color": "purple"
+        }
+      },
+      {
+        "color": "red",
+        "connected": "true",
+        "innerSquare": {
+          "shape": "star",
+          "color": "yellow"
+        }
+      },
+      {
+        "color": "green",
+        "connected": "true",
+        "innerSquare": {
+          "shape": "triangle",
+          "color": "blue"
+        }
+      },
+      {
+        "color": "purple",
+        "connected": "true",
+        "innerSquare": {
+          "shape": "circle",
+          "color": "yellow"
+        }
+      },
+      {
+        "color": "yellow",
+        "connected": "true",
+        "innerSquare": {
+          "shape": "star",
+          "color": "red"
+        }
+      },
+      {
+        "color": "orange",
+        "connected": "true",
+        "innerSquare": {
+          "shape": "square",
+          "color": "green"
+        }
+      },
+      {
+        "color": "blue",
+        "connected": "true",
+        "innerSquare": {
+          "shape": "triangle",
+          "color": "green"
+        }
+      },
+      {
+        "color": "blue",
+        "connected": "true",
+        "innerSquare": {
+          "shape": "hexagon",
+          "color": "red"
+        }
+      },
+      {
+        "color": "green",
+        "connected": "true",
+        "innerSquare": {
+          "shape": "square",
+          "color": "orange"
+        }
+      },
+      {
+        "color": "purple",
+        "connected": "true",
+        "innerSquare": {
+          "shape": "circle",
+          "color": "orange"
+        }
+      },
+      {
+        "color": "red",
+        "connected": "true",
+        "innerSquare": {
+          "shape": "hexagon",
+          "color": "blue"
+        }
+      },
+      {
+        "color": "yellow",
+        "connected": "true",
+        "innerSquare": {
+          "shape": "circle",
+          "color": "purple"
+        }
+      }
+    ]
+  }
+
+}

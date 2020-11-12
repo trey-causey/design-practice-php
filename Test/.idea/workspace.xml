@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="624f5b2c-34bc-473e-9dad-12a9d3135fcd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="87d9225f-a339-4360-ad2d-cff31e1ab21d" name="localhost" port="8090" />
+      <server host="localhost" id="2b1b79fb-ada1-4e78-9b4a-616b16cac722" name="localhost (1)" port="1111" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1iNTEv7qgSsuOXljBAMXrzO1TkJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Constants" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My\Workspace\Test\app\resources\jsonFiles\Driver" />
+      <recent name="C:\My\Workspace\Test\app\utils\data\query" />
+      <recent name="C:\My\Workspace\Test\app\resources\jsonFiles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\My\Workspace\Test\app\models\Qualifying\Queries\GetQualifyingList" />
+      <recent name="C:\My\Workspace\Test\app\resources\jsonFiles" />
+      <recent name="C:\My\Workspace\Test\tests\Unit\Models\TeamOwner\Commands" />
+      <recent name="C:\My\Workspace\Test\tests\Unit\Models\TeamOwner" />
+      <recent name="C:\My\Workspace\Test\trash" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.teamOwnerTest.test__construct">
+    <configuration name="calculatePointsCommandTest.testCommandPattern" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Service\Scoring\calculatePointsCommandTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/Service/Scoring/calculatePointsCommandTest.php" method="testCommandPattern" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="calculatePointsCommandTest.testDeterminePointsBasedOnPosition" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Service\Scoring\calculatePointsCommandTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/Service/Scoring/calculatePointsCommandTest.php" method="testDeterminePointsBasedOnPosition" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="calculatePointsCommandTest.testScoring_WithTeamOwnerRoundOne_ReturnPoints" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Service\Scoring\calculatePointsCommandTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/Service/Scoring/calculatePointsCommandTest.php" method="testScoring_WithTeamOwnerRoundOne_ReturnPoints" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+    <configuration name="teamOwnerTest.test__construct" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Unit\Models\TeamOwner\Commands\teamOwnerTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/Unit/Models/TeamOwner/Commands/teamOwnerTest.php" method="test__construct" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="teamOwnerTest.testdeterminePointsBasedOnFastestLap" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Unit\Models\TeamOwner\Commands\teamOwnerTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/Unit/Models/TeamOwner/Commands/teamOwnerTest.php" method="testdeterminePointsBasedOnFastestLap" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHPUnit.phpunit.xml.dist" />
+      <item itemvalue="PHPUnit.calculatePointsCommandTest.testDeterminePointsBasedOnPosition" />
+      <item itemvalue="PHPUnit.calculatePointsCommandTest.testCommandPattern" />
+      <item itemvalue="PHPUnit.calculatePointsCommandTest.testScoring_WithTeamOwnerRoundOne_ReturnPoints" />
+      <item itemvalue="PHPUnit.teamOwnerTest.testdeterminePointsBasedOnFastestLap" />
+      <item itemvalue="PHPUnit.teamOwnerTest.test__construct" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.teamOwnerTest.test__construct" />
+        <item itemvalue="PHPUnit.calculatePointsCommandTest.testCommandPattern" />
+        <item itemvalue="PHPUnit.calculatePointsCommandTest.testScoring_WithTeamOwnerRoundOne_ReturnPoints" />
+        <item itemvalue="PHPUnit.calculatePointsCommandTest.testDeterminePointsBasedOnPosition" />
+        <item itemvalue="PHPUnit.teamOwnerTest.testdeterminePointsBasedOnFastestLap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="624f5b2c-34bc-473e-9dad-12a9d3135fcd" name="Default Changelist" comment="" />
+      <created>1601746941692</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601746941692</updated>
+      <workItem from="1601746942860" duration="4009000" />
+      <workItem from="1601925105834" duration="57907000" />
+      <workItem from="1603639178569" duration="74185000" />
+      <workItem from="1604682641269" duration="65053000" />
+      <workItem from="1605097649837" duration="43762000" />
+      <workItem from="1605191387229" duration="642000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="676" y="110" key="#Test_Frameworks" timestamp="1604576750511">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="676" y="110" key="#Test_Frameworks/0.0.1536.824@0.0.1536.824" timestamp="1604576750511" />
+    <state x="2199" y="85" width="1092" height="835" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605098538845">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2199" y="85" width="1092" height="835" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605098538845" />
+    <state x="223" y="67" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604576792031" />
+    <state x="2012" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1605131991079">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605131991079" />
+    <state x="2620" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605111771584">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2620" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605111771584" />
+    <state x="2685" y="201" key="#com.intellij.ide.util.MemberChooser" timestamp="1604078724430">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2685" y="201" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604078724430" />
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603895040051">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603895040051" />
+    <state x="547" y="324" width="442" height="265" key="ComposerInitDialogKey" timestamp="1601748139069">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="547" y="324" width="442" height="265" key="ComposerInitDialogKey/0.0.1536.824@0.0.1536.824" timestamp="1601748139069" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1604576874047">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1602350262069" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604576874047" />
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1605191147634">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="153" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604851892178" />
+    <state width="1877" height="351" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605134412016" />
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605191147634" />
+    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1605191147634">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="153" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604851892177" />
+    <state width="1877" height="351" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605134412016" />
+    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605191147634" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1605191147634">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="153" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604851892177" />
+    <state width="1877" height="351" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605134412016" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605191147634" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1605191147634">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="153" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604851892177" />
+    <state width="1877" height="351" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605134412016" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605191147634" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1605191147634">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604851052108" />
+    <state width="1877" height="277" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605134411899" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605191147634" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1605191147634">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604851052108" />
+    <state width="1877" height="277" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605134411899" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605191147634" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1605191147634">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604851052108" />
+    <state width="1877" height="277" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605134411899" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605191147634" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1605191147634">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604851052108" />
+    <state width="1877" height="277" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605134411899" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605191147634" />
+    <state width="938" height="304" key="GridCell.Tab.2.bottom" timestamp="1605191147628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="318" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1602348642969" />
+    <state width="938" height="304" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605099884178" />
+    <state width="938" height="304" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605191147628" />
+    <state width="938" height="304" key="GridCell.Tab.2.center" timestamp="1605191147628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="318" key="GridCell.Tab.2.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1602348642968" />
+    <state width="938" height="304" key="GridCell.Tab.2.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605099884178" />
+    <state width="938" height="304" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1605191147628" />
+    <state width="938" height="304" key="GridCell.Tab.2.left" timestamp="1605191147628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="318" key="GridCell.Tab.2.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1602348642968" />
+    <state width="938" height="304" key="GridCell.Tab.2.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605099884178" />
+    <state width="938" height="304" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1605191147628" />
+    <state width="938" height="304" key="GridCell.Tab.2.right" timestamp="1605191147628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="318" key="GridCell.Tab.2.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1602348642968" />
+    <state width="938" height="304" key="GridCell.Tab.2.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605099884178" />
+    <state width="938" height="304" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1605191147628" />
+    <state x="2710" y="242" key="NewPhpClassDialog" timestamp="1605111790122">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2710" y="242" key="NewPhpClassDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605111790122" />
+    <state x="632" y="192" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1603819446937" />
+    <state x="2675" y="423" key="NewPhpFileDialog" timestamp="1605115362787">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="604" y="339" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605008007423" />
+    <state x="2675" y="423" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605115362787" />
+    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1602572311855" />
+    <state x="2266" y="72" key="SettingsEditor" timestamp="1605037171781">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604852054345" />
+    <state x="2266" y="72" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605037171781" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604576935025" />
+    <state x="2669" y="124" width="647" height="726" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1605037310335">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2669" y="124" width="647" height="726" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605037310335" />
+    <state x="836" y="0" width="674" height="692" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1603894307639" />
+    <state x="2586" y="253" width="597" height="534" key="find.popup" timestamp="1605108607741">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2586" y="253" width="597" height="534" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605108607741" />
+    <state x="533" y="200" width="549" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1604751984631" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1604571752902">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1604571752902" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Test@GetDraftListQueryTest_testGetDraftListByRound.xml" NAME="GetDraftListQueryTest.testGetDraftListByRound Coverage Results" MODIFIED="1605015426375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Test@calculatePointsCommandTest_testCommandPattern.xml" NAME="calculatePointsCommandTest.testCommandPattern Coverage Results" MODIFIED="1605156493672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Test@calculatePointsCommandTest_testTheWholeThing.xml" NAME="calculatePointsCommandTest.testTheWholeThing Coverage Results" MODIFIED="1604571731889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Test@calculatePointsCommandTest_testDeterminePointsBasedOnPosition.xml" NAME="calculatePointsCommandTest.testDeterminePointsBasedOnPosition Coverage Results" MODIFIED="1604571673362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

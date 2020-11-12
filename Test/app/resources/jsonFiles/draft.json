@@ -1,0 +1,241 @@
+{
+	"Data": {
+		"Season": "2020",
+		"DraftTable": {
+			"Drafts": [
+				{
+				"RaceGroupDraft": [
+					{
+						"Date": "07-05-20",
+						"Race": "Austria",
+						"RaceNumber": "1",
+						"DraftList": [{
+								"owner": "Nick",
+								"currentDraftPickNumber": "2",
+								"picks": {
+									"primaryDriver": "VER",
+									"secondaryDriver": "OCO",
+									"turboDriver": "GRO",
+									"constructor": "Red Bull"
+								}
+							},
+							{
+								"owner": "Phillip",
+								"currentDraftPickNumber": "1",
+								"picks": {
+									"primaryDriver": "HAM",
+									"secondaryDriver": "STR",
+									"turboDriver": "KVY",
+									"constructor": "Mercedes"
+								}
+							},
+							{
+								"owner": "Trey",
+								"currentDraftPickNumber": "6",
+								"picks": {
+									"primaryDriver": "VET",
+									"secondaryDriver": "SAI",
+									"turboDriver": "KVY",
+									"constructor": "Ferrari"
+								}
+							},
+							{
+								"owner": "Casey",
+								"currentDraftPickNumber": "4",
+								"picks": {
+									"primaryDriver": "NOR",
+									"secondaryDriver": "PER",
+									"turboDriver": "RAI",
+									"constructor": "McLaren"
+								}
+							},
+							{
+								"owner": "Oliver",
+								"currentDraftPickNumber": "7",
+								"picks": {
+									"primaryDriver": "ALB",
+									"secondaryDriver": "RIC",
+									"turboDriver": "KVY",
+									"constructor": "Red Bull"
+								}
+							},
+							{
+								"owner": "Andrew",
+								"currentDraftPickNumber": "2",
+								"picks": {
+									"primaryDriver": "BOT",
+									"secondaryDriver": "GAS",
+									"turboDriver": "KVY",
+									"constructor": "Mercedes"
+								}
+							},
+							{
+								"owner": "George",
+								"currentDraftPickNumber": "3",
+								"picks": {
+									"primaryDriver": "LEC",
+									"secondaryDriver": "MAG",
+									"turboDriver": "KVY",
+									"constructor": "Ferrari"
+								}
+							}
+						]
+					},
+					{
+						"Date": "07-12-20",
+						"Race": "Styria",
+						"RaceNumber": "2",
+						"DraftList": [{
+								"owner": "Nick",
+								"currentDraftPickNumber": "2",
+								"picks": {
+									"primaryDriver": "VER",
+									"secondaryDriver": "OCO",
+									"turboDriver": "GRO",
+									"constructor": "Red Bull"
+								}
+							},
+							{
+								"owner": "Phillip",
+								"currentDraftPickNumber": "1",
+								"picks": {
+									"primaryDriver": "HAM",
+									"secondaryDriver": "STR",
+									"turboDriver": "KVY",
+									"constructor": "Mercedes"
+								}
+							},
+							{
+								"owner": "Trey",
+								"currentDraftPickNumber": "6",
+								"picks": {
+									"primaryDriver": "VET",
+									"secondaryDriver": "SAI",
+									"turboDriver": "KVY",
+									"constructor": "Ferrari"
+								}
+							},
+							{
+								"owner": "Casey",
+								"currentDraftPickNumber": "4",
+								"picks": {
+									"primaryDriver": "NOR",
+									"secondaryDriver": "PER",
+									"turboDriver": "RAI",
+									"constructor": "McLaren"
+								}
+							},
+							{
+								"owner": "Oliver",
+								"currentDraftPickNumber": "7",
+								"picks": {
+									"primaryDriver": "ALB",
+									"secondaryDriver": "RIC",
+									"turboDriver": "KVY",
+									"constructor": "Red Bull"
+								}
+							},
+							{
+								"owner": "Andrew",
+								"currentDraftPickNumber": "2",
+								"picks": {
+									"primaryDriver": "BOT",
+									"secondaryDriver": "GAS",
+									"turboDriver": "KVY",
+									"constructor": "Mercedes"
+								}
+							},
+							{
+								"owner": "George",
+								"currentDraftPickNumber": "3",
+								"picks": {
+									"primaryDriver": "LEC",
+									"secondaryDriver": "MAG",
+									"turboDriver": "KVY",
+									"constructor": "Ferrari"
+								}
+							}
+						]
+					},
+					{
+						"Date": "07-12-20",
+						"Race": "Styria",
+						"RaceNumber": "2",
+						"DraftList": [{
+								"owner": "Nick",
+								"currentDraftPickNumber": "2",
+								"picks": {
+									"primaryDriver": "VER",
+									"secondaryDriver": "OCO",
+									"turboDriver": "GRO",
+									"constructor": "Red Bull"
+								}
+							},
+							{
+								"owner": "Phillip",
+								"currentDraftPickNumber": "1",
+								"picks": {
+									"primaryDriver": "HAM",
+									"secondaryDriver": "STR",
+									"turboDriver": "KVY",
+									"constructor": "Mercedes"
+								}
+							},
+							{
+								"owner": "Trey",
+								"currentDraftPickNumber": "6",
+								"picks": {
+									"primaryDriver": "VET",
+									"secondaryDriver": "SAI",
+									"turboDriver": "KVY",
+									"constructor": "Ferrari"
+								}
+							},
+							{
+								"owner": "Casey",
+								"currentDraftPickNumber": "4",
+								"picks": {
+									"primaryDriver": "NOR",
+									"secondaryDriver": "PER",
+									"turboDriver": "RAI",
+									"constructor": "McLaren"
+								}
+							},
+							{
+								"owner": "Oliver",
+								"currentDraftPickNumber": "7",
+								"picks": {
+									"primaryDriver": "ALB",
+									"secondaryDriver": "RIC",
+									"turboDriver": "KVY",
+									"constructor": "Red Bull"
+								}
+							},
+							{
+								"owner": "Andrew",
+								"currentDraftPickNumber": "2",
+								"picks": {
+									"primaryDriver": "BOT",
+									"secondaryDriver": "GAS",
+									"turboDriver": "KVY",
+									"constructor": "Mercedes"
+								}
+							},
+							{
+								"owner": "George",
+								"currentDraftPickNumber": "3",
+								"picks": {
+									"primaryDriver": "LEC",
+									"secondaryDriver": "MAG",
+									"turboDriver": "KVY",
+									"constructor": "Ferrari"
+								}
+							}
+						]
+					}
+
+				]
+			}, {},{},{},{},{},{}]
+		}
+	}
+}

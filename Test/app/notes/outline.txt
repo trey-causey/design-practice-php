@@ -1,0 +1,6 @@
+use a type of factory to output teamowner objects (factory pattern)
+
+decorate them with draft attributes (decorator pattern)
+or see if builder pattern works better (builder pattern)
+
+determine points and scoring with command pattern (command pattern)

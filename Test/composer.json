@@ -1,0 +1,13 @@
+{
+    "require": {
+        "phpunit/phpunit": "^8.5",
+        "guzzlehttp/guzzle": "~6.0",
+        "ext-json": "*",
+      "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "testNameSpace\\": "app/"
+        }
+    }
+}
