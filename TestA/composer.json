@@ -3,12 +3,16 @@
         "phpunit/phpunit": "^8.5",
         "guzzlehttp/guzzle": "~6.0",
         "ext-json": "*",
-      "ext-simplexml": "*",
-      "ext-pdo": "*"
+      "ext-simplexml": "*"
     },
     "autoload": {
         "psr-4": {
-            "testNameSpace\\": "app/"
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
         }
     }
 }
