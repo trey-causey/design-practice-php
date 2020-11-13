@@ -13,7 +13,7 @@ class Database implements IDatabase {
     {
         try {
         $this->db = new PDO(PDO_DSN, MARIADB_USER, MARIADB_PASSWORD);
-        $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+       // $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         } catch (PDOException $e) {
             printf("We had a problem: %s\n", $e->getMessage());
         }
@@ -21,20 +21,16 @@ class Database implements IDatabase {
 
     /**
      * @param $sql
-     * @return false|\PDOStatement
+     * @param $fetch_style
+     * @param $params
+     * @return mixed
      */
-    public function query($sql)
+    public function query($sql, $fetch_style, $params = array())
     {
-        return $this->db->query($sql);
-    }
-
-    /**
-     * @param $sql
-     * @return false|\PDOStatement
-     */
-    public function fetchAll($sql)
-    {
-        return $this->db->fetchAll($sql, PDO::FETCH_ASSOC);
+        $stm = $this->db->prepare($sql);
+        $stm->setFetchMode($fetch_style);
+        $stm->execute($params);
+        return $stm->fetchAll();
     }
 
     /**
@@ -65,4 +61,5 @@ class Database implements IDatabase {
         }
 
     }*/
+
 }
