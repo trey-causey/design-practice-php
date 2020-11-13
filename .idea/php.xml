@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/Test/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/Test/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/Test/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/Test/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/Test/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/Test/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/Test/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/Test/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/Test/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/Test/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/Test/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/Test/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/Test/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/Test/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/Test/vendor/composer" />
+      <path value="$PROJECT_DIR$/Test/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/Test/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/Test/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/Test/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/Test/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/Test/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/Test/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/Test/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/Test/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/Test/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Test/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/Test/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/Test/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/Test/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/Test/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/Test/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/Test/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/Test/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/Test/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/Test/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/Test/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/Test/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/Test/vendor/phpdocumentor/reflection-docblock" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/Test/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>
