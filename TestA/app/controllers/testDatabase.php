@@ -1,5 +1,8 @@
 <?php namespace app\controllers;
 
+use App\Models\driver\Driver;
+use Models\database\Database\Database;
+
 include __DIR__ . '/../../src/Models/database/Database.php';
 
 class testDatabase
@@ -16,3 +19,8 @@ class testDatabase
 
     }
 }
+
+$db = new Database();
+$driver = new Driver($db);
+$client = $driver->GetDriverIdByCode('VER');
+var_dump($client);

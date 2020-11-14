@@ -1,4 +1,4 @@
-<?php namespace Models\TeamOwner;
+<?php namespace models\TeamOwner;
 
 include __DIR__ . '/../../../../../../TestA/src/models/teamOwner/TeamOwner.php';
 

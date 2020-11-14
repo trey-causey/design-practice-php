@@ -23,18 +23,33 @@ class Driver
         $this->db = $db;
     }
 
-    public function GetDriverByCode($code)
+    public function GetDriverIdByDriverRef($driverRef)
+    {
+        $sql = "SELECT * FROM drivers where driverRef = ?";
+        $param = [$driverRef];
+       $data = $this->db->query($sql, $fetchStyle = PDO::FETCH_ASSOC, $param);
+        $arr = [];
+        foreach ($data as $item)
+        {
+            array_push($arr,$item['driverId']);
+        }
+        $max = intval(max($arr));
+        return $max;
+
+    }
+
+    public function GetDriverIdByCode($code)
     {
         $sql = "SELECT * FROM drivers where code = ?";
         $param = [$code];
-       $data = $this->db->query($sql, $fetchStyle = PDO::FETCH_ASSOC, $param);
-       foreach ($data as $row)
-       {
-           var_dump($row);
-       }
-
+        $data = $this->db->query($sql, $fetchStyle = PDO::FETCH_ASSOC, $param);
+        $arr = [];
+        foreach ($data as $item)
+        {
+            array_push($arr,$item['driverId']);
+        }
+        $max = intval(max($arr));
+        return $max;
     }
 }
-$db = new Database();
-$driver = new Driver($db);
-$driver->GetDriverByCode('VER');
+
