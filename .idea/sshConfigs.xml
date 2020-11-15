@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="162.213.251.199" id="159fa5f7-61d0-486b-8907-8db773c35a21" keyPath="C:\Users\TJC\.ssh\id_dsa" port="21098" nameFormat="DESCRIPTIVE" username="sitejsvh" />
+    </configs>
+  </component>
+</project>

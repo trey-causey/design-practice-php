@@ -14,7 +14,7 @@ class testDB {
     {
         $this->db = new Database();
         $sql = "SELECT * FROM drivers";
-        $q = $this->db->query($sql);
+        $q = $this->db->query($sql, );
         $row = $q->fetchAll(PDO::FETCH_ASSOC);
         var_dump($row);
     }

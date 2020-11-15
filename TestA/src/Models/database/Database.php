@@ -13,7 +13,7 @@ class Database implements IDatabase {
     {
         try {
         $this->db = new PDO(PDO_DSN, MARIADB_USER, MARIADB_PASSWORD);
-       // $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         } catch (PDOException $e) {
             printf("We had a problem: %s\n", $e->getMessage());
         }

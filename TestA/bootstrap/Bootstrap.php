@@ -1,5 +1,7 @@
 <?php
 
+require __DIR__ . '/../../Test/vendor/autoload.php';
+
 class Bootstrap
 {
     public function __construct()
@@ -8,19 +10,19 @@ class Bootstrap
         $tokens = explode('/', rtrim($_SERVER['REQUEST_URI'], '/'));
 
         //2.dispatcher
-        $controllerName = ucfirst($tokens[1]);
+        $controllerName = ucfirst($tokens[0]);
         if (file_exists(__DIR__ . '/../app/controllers/' . $controllerName . 'Controller.php'))
         {
             require_once(__DIR__ . '/../app/controllers/' . $controllerName . 'Controller.php');
             $controllerName = $controllerName . 'Controller';
             $controller = new $controllerName();
 
-            if(isset($tokens[2]))
+            if(isset($tokens[1]))
             {
-                $actionName = $tokens[2] . 'Action';
-                if(isset($tokens[3]))
+                $actionName = $tokens[1] . 'Action';
+                if(isset($tokens[2]))
                 {
-                    $controller->{$actionName}($tokens[3]);
+                    $controller->{$actionName}($tokens[2]);
                 } else {
                     $controller->{$actionName}();
                 }
