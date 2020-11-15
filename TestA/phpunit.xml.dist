@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<phpunit bootstrap="bootstrap/Bootstrap.php" colors="true">
+<phpunit bootstrap="./vendor/autoload.php" colors="true">
     <testsuites>
         <testsuite name="Unit">
-        <directory suffix="Test.php">tests/unit</directory>
+            <directory suffix="Test.php">tests/unit</directory>
         </testsuite>
     </testsuites>
     <logging>
-        <log type="coverage-html" target="web/coverage" lowUpperBound="35"
-             highUpperBound="70"></log>
+        <log type="coverage-html" target="web/coverage" />
     </logging>
     <filter>
-        <whitelist>
-            <directory suffix=".php">TestA</directory>
+        <whitelist >
+            <directory suffix=".php">src</directory>
             <exclude>
                 <directory suffix=".php">tests</directory>
             </exclude>

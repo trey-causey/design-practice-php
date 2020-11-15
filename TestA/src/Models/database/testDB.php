@@ -1,4 +1,4 @@
-<?php namespace Models\database\Database;
+<?php namespace Models\database;
 
 include __DIR__ . '/Database.php';
 
@@ -6,7 +6,7 @@ use PDO;
 
 class testDB {
     /**
-     * @var \Models\database\Database\IDatabase $db
+     * @var \Models\database\IDatabase $db
      */
     protected $db;
 

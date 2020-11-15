@@ -1,4 +1,4 @@
-<?php namespace App\Models\TeamOwner;
+<?php namespace Models\teamOwner;
 
 interface ITeamOwner {
 

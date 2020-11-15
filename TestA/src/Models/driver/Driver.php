@@ -1,7 +1,7 @@
-<?php namespace App\Models\driver;
+<?php namespace Models\driver;
 
-use Models\database\Database\Database;
-use Models\database\Database\IDatabase;
+use Models\database\Database;
+use Models\database\IDatabase;
 use PDO;
 
 require_once __DIR__ . '/../database/Database.php';

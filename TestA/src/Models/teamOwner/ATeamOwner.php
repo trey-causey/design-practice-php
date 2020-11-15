@@ -1,4 +1,4 @@
-<?php namespace App\Models\TeamOwner;
+<?php namespace Models\teamOwner;
 
 use phpDocumentor\Reflection\Types\Array_;
 use phpDocumentor\Reflection\Types\Object_;

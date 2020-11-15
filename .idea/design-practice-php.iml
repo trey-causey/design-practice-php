@@ -5,6 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Test/app" isTestSource="false" packagePrefix="testNameSpace\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/TestA/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TestA/tests" isTestSource="false" packagePrefix="App\Tests\" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

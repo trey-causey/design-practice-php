@@ -1,4 +1,4 @@
-<?php namespace Models\database\Database;
+<?php namespace Models\database;
 
 use PDO;
 use PDOException;
@@ -33,33 +33,6 @@ class Database implements IDatabase {
         return $stm->fetchAll();
     }
 
-    /**
-     * @return PDO
-     */
-    public function getDb(): PDO
-    {
-        return $this->db;
-    }
 
-    /**
-     * @param PDO $db
-     */
-    public function setDb(PDO $db): void
-    {
-        $this->db = $db;
-    }
-
-
-    /*function loadDatabase()
-    {
-        try {
-            $db = new PDO(PDO_DSN, MARIADB_USER, MARIADB_PASSWORD);
-            $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-        } catch (PDOException $e) {
-            printf("We had a problem: %s\n", $e->getMessage());
-        }
-
-    }*/
 
 }

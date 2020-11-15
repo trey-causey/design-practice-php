@@ -1,4 +1,4 @@
-<?php namespace Models\database\Database;
+<?php namespace Models\database;
 
 require_once __DIR__ . '/connectPdo.php';
 

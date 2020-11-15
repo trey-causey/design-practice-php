@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . '/../../Test/vendor/autoload.php';
+require __DIR__ . '/../../TestA/vendor/autoload.php';
 
 class Bootstrap
 {
