@@ -12,9 +12,10 @@ class testDB {
 
     function testThisDB()
     {
+        $param = [];
         $this->db = new Database();
         $sql = "SELECT * FROM drivers";
-        $q = $this->db->query($sql, );
+        $q = $this->db->query($sql, $fetchStyle = PDO::FETCH_ASSOC, $param);
         $row = $q->fetchAll(PDO::FETCH_ASSOC);
         var_dump($row);
     }
